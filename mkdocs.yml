@@ -1,0 +1,66 @@
+site_name: Paonia
+nav:
+  - Welcome: index.md
+  - Control Center: 
+    - Overview: control_center/index.md
+  - Atomics:
+    - Overview: atomics/index.md
+    - API:
+      - Rest v1.0:
+        - Getting started: atomics/api/rest/v1.0/index.md
+        - Authentication: atomics/api/rest/v1.0/auth.md
+        - Resources:
+          - Atomics: atomics/api/rest/v1.0/resources/atomics.md
+          - Compute: atomics/api/rest/v1.0/resources/compute.md
+      - GraphQL v1.0: 
+        - Getting started: atomics/api/graphql/v1.0/index.md
+    - Core:
+        - Python library: 
+          - Getting started: atomics/core/lib/index.md
+          - Installation: atomics/core/lib/install.md
+          - References: 
+            - Atomics: atomics/core/lib/refs/atomics.md
+            - Models: atomics/core/lib/refs/models.md
+            - Extensions: atomics/core/lib/refs/extensions.md
+        - Datafeed: atomics/core/datafeed/index.md
+theme:
+  name: material
+  logo: img/paonia.png
+  favicon: img/paonia.png
+  palette:
+    primary: white
+    accent: pink
+  repo_url: https://gitlab.com/boc-lab/atomics
+  features:
+    - content.code.annotate
+
+copyright: "Copyright &copy; 2022 Hifield; 2022 Paonia"
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - admonition
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+#  - markdown_include.include:
+#      base_path: content/includes/
+#      encoding: utf-8
+  - toc:
+      permalink: true
