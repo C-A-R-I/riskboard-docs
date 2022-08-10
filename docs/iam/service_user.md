@@ -88,7 +88,7 @@ Content-Type: application/json
         const { generate } = require('jwt-bearer-client-auth');
         const axios = require('axios');
     
-        const tokenEndpoint = `https://auth.paonia.io`
+        const tokenEndpoint = `https://auth.paonia.io/oauth/v2/token`
         const expiresIn = 60;
     
         const assertion = await generate({
@@ -104,7 +104,7 @@ Content-Type: application/json
             {},
         });
     
-        const response = await axios.get(`${tokenEndpoint}/oauth/v2/token?grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&scope=openid profile&assertion=${assertion}`)
+        const response = await axios.get(`${tokenEndpoint}?grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&scope=openid profile&assertion=${assertion}`)
     
         console.log('> token_type:', response.data.token_type)
         console.log('> access_token:', response.data.access_token)
