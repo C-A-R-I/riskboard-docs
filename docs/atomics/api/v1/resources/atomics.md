@@ -34,7 +34,7 @@ The `purpose` value can be one of :
 - `isp`
 - `business`
 - `security`
-- `dns`
+- `dns_provider`
 - `mail`
 
 > :information_source: An optional parameter normalized (`?normalized=true`) could be added to get the atomic value instead of the common name.

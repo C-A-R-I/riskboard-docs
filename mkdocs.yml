@@ -5,24 +5,16 @@ nav:
     - Overview: control_center/index.md
   - Atomics:
     - Overview: atomics/index.md
-    - API:
-      - Rest v1:
-        - Getting started: atomics/api/rest/v1/index.md
-        - Authentication: atomics/api/rest/v1/auth.md
-        - Resources:
-          - Atomics: atomics/api/rest/v1/resources/atomics.md
-          - Compute: atomics/api/rest/v1/resources/compute.md
-      - GraphQL v1: 
-        - Getting started: atomics/api/graphql/v1/index.md
-    - Core:
-        - Python library: 
-          - Getting started: atomics/core/lib/index.md
-          - Installation: atomics/core/lib/install.md
-          - References: 
-            - Atomics: atomics/core/lib/refs/atomics.md
-            - Models: atomics/core/lib/refs/models.md
-            - Extensions: atomics/core/lib/refs/extensions.md
-        - Datafeed: atomics/core/datafeed/index.md
+    - API v1:
+      - Getting started: atomics/api/v1/index.md
+      - Authentication: atomics/api/v1/auth.md
+      - Resources:
+        - Atomics: atomics/api/v1/resources/atomics.md
+        - Compute: atomics/api/v1/resources/compute.md
+  - Identity and Access Management (IAM): 
+    - Overview: iam/index.md
+    - Service user: iam/service_user.md
+
 theme:
   name: material
   logo: img/paonia.png
