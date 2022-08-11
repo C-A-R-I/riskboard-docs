@@ -15,13 +15,18 @@ nav:
     - Overview: iam/index.md
     - Service user: iam/service_user.md
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   logo: img/paonia.png
   favicon: img/paonia.png
   palette:
-    primary: white
-    accent: pink
+    scheme: paonia-light
+    # accent: pink
+    # primary: white
+
   repo_url: https://gitlab.com/boc-lab/atomics
   features:
     - content.code.annotate
@@ -31,13 +36,15 @@ copyright: "Copyright &copy; 2022 Hifield; 2022 Paonia"
 markdown_extensions:
   - meta
   - attr_list
+  - def_list
   - admonition
   - md_in_html
   - footnotes
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols
-  - pymdownx.tasklist
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

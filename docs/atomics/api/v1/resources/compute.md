@@ -16,7 +16,7 @@ The only parameter is `ip` and {==must be an IPv4 or IPv6 address==}.
     ```http
     GET /v1/compute/is-mutualized/3.5.140.56 HTTP/1.1
     Host: api.atomics.paonia.io:443
-    Authorization: Bearer $TOKEN
+    Authorization: $token_type $access_token
     ```
 
 ??? example "HTTP response example"

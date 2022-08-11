@@ -7,13 +7,13 @@ The IAM platform can be accessed at [:material-web: auth.paonia.io](https://auth
 
 Our platform respond to multiple standards:
 
-- [OAuth 2.0](https://oauth.net/2/)
-- [OpenID Connect](https://openid.net/connect/)
-- [JSON Web Token](https://jwt.io/)
-- [WebAuthn](https://www.w3.org/TR/webauthn-2/)
-- [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)
-- [Passwordless](https://en.wikipedia.org/wiki/Passwordless_authentication)
-- [Multi-Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
+- [x] [OAuth 2.0](https://oauth.net/2/)
+- [x] [OpenID Connect](https://openid.net/connect/)
+- [x] [JSON Web Token](https://jwt.io/)
+- [x] [WebAuthn](https://www.w3.org/TR/webauthn-2/)
+- [x] [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)
+- [x] [Passwordless](https://en.wikipedia.org/wiki/Passwordless_authentication)
+- [x] [Multi-Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
 
 ## OpenID Connect specification
 

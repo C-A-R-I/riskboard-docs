@@ -44,7 +44,7 @@ The `purpose` value can be one of :
     ```  { .http .annotate }
     GET /v1/atomics/by-type/organization/by-purpose/cloud_provider HTTP/1.1
     Host: api.atomics.paonia.io:443
-    Authorization: Bearer $TOKEN
+    Authorization: $token_type $access_token
     ```
 
 ??? example "HTTP response example"

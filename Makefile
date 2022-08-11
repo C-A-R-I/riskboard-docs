@@ -1,4 +1,19 @@
-# pip install mkdocs-material
+# HELP
+# This will output the help for each task
+.PHONY: help
 
-# mkdocs serve
+help: ## This help
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+.DEFAULT_GOAL := help
+
+install: ## Install requirements
+	@echo "Installing python dependencies"
+	pip install -r requirements.txt
+
+serve: ## Run a local server
+	mkdocs serve
+
+build: ## Build the site
+	mkdocs build
 
