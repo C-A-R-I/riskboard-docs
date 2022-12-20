@@ -1,33 +1,26 @@
-site_name: Paonia
+site_name: Documentation
 nav:
   - Welcome: index.md
-  - Control Center: 
-    - Overview: control_center/index.md
   - Atomics:
-    - Overview: atomics/index.md
-    - API v1:
-      - Getting started: atomics/api/v1/index.md
-      - Authentication: atomics/api/v1/auth.md
-      - Resources:
-        - Atomics: atomics/api/v1/resources/atomics.md
-        - Compute: atomics/api/v1/resources/compute.md
-  - Identity and Access Management (IAM): 
-    - Overview: iam/index.md
-    - Service user: iam/service_user.md
+    - Rest API v1: 
+      - Getting Started: atomics/rest_api_v1/getting_started.md
+      - Get IP mutualization status: atomics/rest_api_v1/get_ip_mutualization_status.md
+      - Get related services: atomics/rest_api_v1/get_related_services.md
+      - Search related threats: atomics/rest_api_v1/search_related_threats.md
+      - Enhanced Whois: atomics/rest_api_v1/enhanced_whois.md
 
 extra_css:
   - stylesheets/extra.css
 
 theme:
   name: material
-  logo: img/paonia.png
+  logo: img/paonia_logo_text_darkpink_01.png
   favicon: img/paonia.png
   palette:
     scheme: paonia-light
-    # accent: pink
-    # primary: white
+    accent: pink
+    primary: white
 
-  repo_url: https://gitlab.com/boc-lab/atomics
   features:
     - content.code.annotate
 

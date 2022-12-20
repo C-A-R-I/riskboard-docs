@@ -1,27 +1,12 @@
-# Welcome to Paonia documentation
+# Welcome to our knowledge center
 
-![Paonia](../img/paonia.png){ align=left width=75px loading=lazy }
+We design and develop innovative solutions to help you improve your security posture.
 
-__Paonia__ 
-<br/>
-:material-rocket-launch: *Building the future of cybersecurity*
+## Atomics
 
-<br/>
-
-__Atomics__
-
-:   Cybersecurity Knowledge Graph :material-graph:
+:   __Cyber Knowledge Graph :material-graph:__
     <br/>
-    [:material-plus-thick: Learn more](/atomics)
-
-__Control Center__
-
-:   Global interface to interact with Paonia products and services.
+    `DaaS` a Data as a Service solution to get consolidated and relational data to respond to your needs.
     <br/>
-    [:material-plus-thick: Learn more](/control_center)
+    [:material-plus-thick: Learn more *(Rest API v1)*](/atomics/rest_api_v1/getting_started)
 
-__IAM__
-
-:   Identity and Access Management platform of Paonia
-    <br/>
-    [:material-plus-thick: Learn more](/iam)
