@@ -1,30 +1,29 @@
 site_name: Documentation
 nav:
   - Welcome: index.md
-  - Atomics:
-    - Rest API v1: 
-      - Getting Started: atomics/rest_api_v1/getting_started.md
-      - Get IP mutualization status: atomics/rest_api_v1/get_ip_mutualization_status.md
-      - Get related services: atomics/rest_api_v1/get_related_services.md
-      - Search related threats: atomics/rest_api_v1/search_related_threats.md
-      - Enhanced Whois: atomics/rest_api_v1/enhanced_whois.md
+  - API:
+    - Getting Started: api/getting_started.md
+    - Assets Search:
+      - Get IP mutualization status: api/assets_search/get_ip_mutualization_status.md
+      - Get related services: api/assets_search/get_related_services.md
+      - Search related threats: api/assets_search/search_related_threats.md
 
 extra_css:
   - stylesheets/extra.css
 
 theme:
   name: material
-  logo: img/paonia_logo_text_darkpink_01.png
-  favicon: img/paonia.png
+  logo: img/rb_logo_wide.png
+  favicon: img/r_logo_sm_border.png
   palette:
-    scheme: paonia-light
+    scheme: riskboard-light
     accent: pink
     primary: white
 
   features:
     - content.code.annotate
 
-copyright: "Copyright &copy; 2022 Hifield; 2022 Paonia"
+copyright: "Copyright &copy; 2023 Almond"
 
 markdown_extensions:
   - meta

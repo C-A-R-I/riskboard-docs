@@ -1,6 +1,6 @@
 # :octicons-workflow-24: Get related services of an Atomic
 
-__Route: `GET /v1/compute/is-service/{type}/{atomic}`__
+__Route: `GET /orgs/{slug}/apps/atomics/compute/is-service/{type}/{atomic}`__
 
 This compute resource is used to get related services of an Atomic node.
 
@@ -30,9 +30,9 @@ threat
 *This is an example of a request to get related services of an IPv4 address.*
 
 ```http
-GET /v1/compute/is-service/ipv4_addr/8.8.4.4 HTTP/1.1
-Host: api.atomics.paonia.io:443
-Authorization: Bearer $access_token
+GET /orgs/{slug}/apps/atomics/compute/is-service/ipv4_addr/8.8.4.4 HTTP/1.1
+Host: sailor.riskboard.eu:443
+X-Sailor-Token: $TOKEN
 ```
 
 ## Response

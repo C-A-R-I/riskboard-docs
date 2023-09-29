@@ -2,7 +2,7 @@
 
 :octicons-beaker-24: Experimental
 
-__Route: `GET /v1/compute/is-threat/{type}/{atomic}`__
+__Route: `GET /orgs/{slug}/apps/atomics/compute/is-threat/{type}/{atomic}`__
 
 This compute resource is used to get related threats of an Atomic node.
 
@@ -31,9 +31,9 @@ certificate
 *This is an example request to get related threats of a domain*
 
 ```http
-GET /v1/compute/is-service/domain/oldtw.com HTTP/1.1
-Host: api.atomics.paonia.io:443
-Authorization: Bearer $access_token
+GET /orgs/{slug}/apps/atomics/compute/is-threat/domain/oldtw.com HTTP/1.1
+Host: sailor.riskboard.eu:443
+X-Sailor-Token: $TOKEN
 ```
 
 ## Response

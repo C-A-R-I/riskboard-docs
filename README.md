@@ -44,8 +44,8 @@ docker build -t docs .
 docker run -p 8000:8000 docs
 ```
 
-### Gitlab Pages
+### Github Pages
 
-The documentation is automatically deployed on [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/) when a commit is pushed on the `main` branch.
+The documentation is automatically deployed on __Github Pages__ when a commit is pushed on the `main` branch.
 
-The configuration is located in the [`.gitlab-ci.yml`](./.gitlab-ci.yml) file.
+The configuration is located in the [`.github/workflows/ci.yml`](./.github/workflows/ci.yml) file.

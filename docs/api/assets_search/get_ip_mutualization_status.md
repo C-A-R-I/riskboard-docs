@@ -1,6 +1,6 @@
 # :octicons-share-android-24: Get IP mutualization status
 
-__Route: `GET /v1/compute/is-mutualized/{ip}`__
+__Route: `GET /orgs/{slug}/apps/atomics/compute/is-mutualized/{ip}`__
 
 This compute resource is used to know if an IP is mutualized or not.
 
@@ -15,9 +15,9 @@ The only parameter is `ip` and {==must be an IPv4 or IPv6 address==}.
 ??? example "HTTP request example"
 
     ```http
-    GET /v1/compute/is-mutualized/3.5.140.56 HTTP/1.1
-    Host: api.atomics.paonia.io:443
-    Authorization: $token_type $access_token
+    GET /orgs/{slug}/apps/atomics/compute/is-mutualized/3.5.140.56 HTTP/1.1
+    Host: sailor.riskboard.eu:443
+    X-Sailor-Token: $TOKEN
     ```
 
 ## Response
