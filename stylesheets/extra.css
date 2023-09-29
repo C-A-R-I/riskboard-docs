@@ -1,0 +1,13 @@
+
+[data-md-color-scheme="riskboard-light"] {
+    /* --md-primary-fg-color: #E7A8CA;
+    --md-primary-fg-color--light: hsla(0,0%,100%,.7);
+    --md-primary-fg-color--dark: rgba(0,0,0,.07);
+    --md-primary-bg-color: #3E182D;
+    --md-primary-bg-color--light: rgba(0,0,0,.54); */
+    --md-typeset-a-color: #d15296;
+    --md-accent-fg-color: #8b2f60;
+    --md-accent-fg-color--transparent: rgba(245,0,86,.1);
+    /* --md-accent-bg-color: #fff;
+    --md-accent-bg-color--light: hsla(0,0%,100%,.7); */
+}
