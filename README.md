@@ -46,6 +46,6 @@ docker run -p 8000:8000 docs
 
 ### Github Pages
 
-The documentation is automatically deployed on __Github Pages__ when a commit is pushed on the `main` branch.
+The documentation is automatically deployed on **Github Pages** when a commit is pushed on the `main` branch.
 
 The configuration is located in the [`.github/workflows/ci.yml`](./.github/workflows/ci.yml) file.
